@@ -15,7 +15,7 @@ const artworks: Artwork[] = [
     title: "The Ndao twins",
     category: "Portrait",
     price: "$5,500",
-    image: "/src/assets/image/WhatsApp Image 2025-11-19 at 16.53.08.jpeg",
+    image: "/assets/image/WhatsApp Image 2025-11-19 at 16.53.08.jpeg",
     dimensions: "9\" × 12\""
   },
   {
@@ -23,7 +23,7 @@ const artworks: Artwork[] = [
     title: "Sacred Manifestation",
     category: "Portrait",
     price: "$4,000",
-    image: "/src/assets/image/WhatsApp Image 2025-11-19 at 16.53.09 (1).jpeg",
+    image: "/assets/image/WhatsApp Image 2025-11-19 at 16.53.09 (1).jpeg",
     dimensions: "36\" × 48\""
   },
   {
@@ -31,7 +31,7 @@ const artworks: Artwork[] = [
     title: "Serene Horizons",
     category: "POtrait",
     price: "$3,200",
-    image: "/src/assets/image/WhatsApp Image 2025-11-19 at 16.53.09 (2).jpeg",
+    image: "/assets/image/WhatsApp Image 2025-11-19 at 16.53.09 (2).jpeg",
     dimensions: "40\" × 60\""
   },
   {
@@ -39,7 +39,7 @@ const artworks: Artwork[] = [
     title: "Hummingbird's Song",
     category: "figurative painting",
     price: "$4,500",
-    image: "/src/assets/image/WhatsApp Image 2025-11-19 at 16.53.09.jpeg",
+    image: "/assets/image/WhatsApp Image 2025-11-19 at 16.53.09.jpeg",
     dimensions: "Multiple pieces"
   },
   {

@@ -15,7 +15,7 @@ const artworks: Artwork[] = [
     title: "The Ndao twins",
     category: "Portrait",
     price: "$5,500",
-    image: "/assets/image/WhatsApp Image 2025-11-19 at 16.53.08.jpeg",
+    image: new URL("../assets/image/WhatsApp Image 2025-11-19 at 16.53.08.jpeg", import.meta.url).href,
     dimensions: "9\" × 12\""
   },
   {
@@ -23,7 +23,7 @@ const artworks: Artwork[] = [
     title: "Sacred Manifestation",
     category: "Portrait",
     price: "$4,000",
-    image: "/assets/image/WhatsApp Image 2025-11-19 at 16.53.09 (1).jpeg",
+    image: new URL("../assets/image/WhatsApp Image 2025-11-19 at 16.53.09 (1).jpeg", import.meta.url).href,
     dimensions: "36\" × 48\""
   },
   {
@@ -31,33 +31,65 @@ const artworks: Artwork[] = [
     title: "Serene Horizons",
     category: "POtrait",
     price: "$3,200",
-    image: "/assets/image/WhatsApp Image 2025-11-19 at 16.53.09 (2).jpeg",
+    image: new URL("../assets/image/WhatsApp Image 2025-11-19 at 16.53.09 (2).jpeg", import.meta.url).href,
     dimensions: "40\" × 60\""
   },
   {
     id: 4,
     title: "Hummingbird's Song",
     category: "figurative painting",
-    price: "$4,500",
-    image: "/assets/image/WhatsApp Image 2025-11-19 at 16.53.09.jpeg",
+    price: "$2,500",
+    image: new URL("../assets/image/WhatsApp Image 2025-11-19 at 16.53.09.jpeg", import.meta.url).href,
     dimensions: "Multiple pieces"
   },
   {
     id: 5,
-    title: "Sculptural Form",
+    title: "Oh how I Love Angels",
     category: "Sculpture",
-    price: "$5,000",
-    image: "https://images.unsplash.com/photo-1760808291592-ab99340e9ea7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5lJTIwYXJ0JTIwc2N1bHB0dXJlfGVufDF8fHx8MTc2MzQ3NDMxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+    price: "$2,000",
+    image: new URL("../assets/image/WhatsApp Image 2025-12-14 at 01.14.52 (1).jpeg", import.meta.url).href,
     dimensions: "24\" × 18\" × 12\""
   },
   {
     id: 6,
-    title: "Studio Series No. 7",
+    title: "The Classical Self",
+    category: "Mixed Media",
+    price: "$3,500",
+    image: new URL("../assets/image/WhatsApp Image 2025-12-14 at 01.14.52 (2).jpeg", import.meta.url).href,
+    dimensions: "36\" × 48\""
+  },
+  {
+    id: 7,
+    title: "Wendy Zarah",
+    category: "Portrait",
+    price: "$2,800",
+    image: new URL("../assets/image/WhatsApp Image 2025-12-14 at 01.14.52 (3).jpeg", import.meta.url).href,
+    dimensions: "36\" × 48\""
+  },
+  {
+    id: 8,
+    title: "EGO",
+    category: "Mixed Media",
+    price: "$3,800",
+    image: new URL("../assets/image/WhatsApp Image 2025-12-14 at 01.14.52 (4).jpeg", import.meta.url).href,
+    dimensions: "36\" × 36\""
+  },
+  {
+    id: 9,
+    title: "Marigold's Embrace",
     category: "Mixed Media",
     price: "$7,800",
-    image: "https://images.unsplash.com/photo-1628586431263-44040b966252?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpc3QlMjBzdHVkaW8lMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzYzNTQ5NDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: new URL("../assets/image/WhatsApp Image 2025-12-14 at 01.14.52.jpeg", import.meta.url).href,
+    dimensions: "36\" × 48\""
+  },
+   {
+    id: 10,
+    title: "Chinoiserie Peonies",
+    category: "Mixed Media",
+    price: "$3,800",
+    image: new URL("../assets/image/WhatsApp Image 2025-12-14 at 01.27.31.jpeg", import.meta.url).href,
     dimensions: "30\" × 40\""
-  }
+  },
 ];
 
 export function Portfolio() {

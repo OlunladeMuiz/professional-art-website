@@ -70,7 +70,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="mb-1 text-white group-hover:text-amber-300 transition-colors duration-300">Email</div>
-                  <p className="text-neutral-400">contact@atelier-art.com</p>
+                  <p className="text-neutral-400">ar6153664@gmail.com</p>
                 </div>
               </div>
 
@@ -81,7 +81,7 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="mb-1 text-white group-hover:text-amber-300 transition-colors duration-300">Phone</div>
-                  <p className="text-neutral-400">+1 (555) 123-4567</p>
+                  <p className="text-neutral-400">+1 (540) 287-4864</p>
                 </div>
               </div>
 

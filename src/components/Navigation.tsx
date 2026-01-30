@@ -16,7 +16,7 @@ export function Navigation() {
         <div className="tracking-widest text-lg relative group cursor-pointer">
           <span
             className="relative z-10 text-16xl lg:text-[10rem] font-black tracking-[0.35em] font-[Cormorant_Garamond] bg-gradient-to-r from-amber-500 via-rose-500 to-purple-500 bg-clip-text text-transparent drop-shadow-[0_12px_60px_rgba(234,88,12,0.7)] shadow-amber-400"
-            style={{ fontFamily: 'Cormorant Garamond, serif', letterSpacing: '0.35em' }}
+            style={{ fontFamily: 'Cormorant Garamond, serif', letterSpacing: '0.35em', fontSize: '35px'}}
           >
             ATELIER
           </span>
